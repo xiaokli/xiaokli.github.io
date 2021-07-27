@@ -6,8 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.xiaokli.top"
 github_username:  xiaokli
 linkedin_username: xiaokang-li
-youtube_username: xiaokang616
-
+facebook_username: xiaokangli616
 # Build settings
 plugins:
   - jekyll-feed
