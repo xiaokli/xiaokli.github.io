@@ -1,0 +1,5 @@
+- id: food
+  description: this is the description
+  image_folder: /gallaries/food
+
+

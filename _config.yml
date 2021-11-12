@@ -8,11 +8,13 @@ url: "https://www.xiaokli.top"
 github_username:  xiaokli
 linkedin_username: xiaokang-li
 facebook_username: xiaokangli616
+twitter_username: xiaokangli616
 # Build settings
 plugins:
   - jekyll-feed
 # ga
 google_analytics: G-51LZE9Z6N2
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
