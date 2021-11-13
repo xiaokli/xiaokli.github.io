@@ -253,3 +253,58 @@
     }
   }
 }
+
+.gallary-list {
+  list-style-type: none;
+  margin: 0;
+  .gallary {
+    .item-list {
+      list-style-type: none;
+      margin: 0;
+      .item {
+        margin: 0 20px 20px 20px;
+        display: inline-block;
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px grey;
+                  transition: 0.6s;
+
+
+        background-position: center;
+        background-size: cover;
+        .name {
+          background: rgba(20, 20, 20, 0.4);
+          color: #fff;
+          font-size: 36px;
+          text-align: center;
+          border-radius: 10px 10px 0 0;
+          height: 24%;
+        }
+        .content {
+          height: 76%;
+          background: rgba(225, 225, 225, 0.4);
+          border-radius: 0 0 10px 10px;
+          transition: 0.6s;
+        }
+        
+        .stars {
+          color: white;
+        }
+      }
+      .item:hover {
+        box-shadow: 4px 4px 8px grey;
+        
+        .stars {
+          color: yellow;
+        }
+        .star-name {
+          color: white;
+        }
+        .content {
+          background: rgba(10, 10, 10, 0.6);
+        }
+      }
+    }
+  }
+}

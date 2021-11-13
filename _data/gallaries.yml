@@ -1,5 +1,22 @@
-- id: food
-  description: this is the description
-  image_folder: /gallaries/food
-
-
+- name: 晚餐
+  description: 疙瘩汤, 牛排
+  folder_name: food
+  publish_date: 2021-11-12
+  images:
+    - name: 疙瘩汤
+      file_name: 20211112_191952.jpg
+      description: 疙瘩汤，是一道北方家常汤品，在山西太原、榆次地区称为拌汤，晋城一带称不烂汤，制作原料主要有面粉、鸡蛋、西红柿等。疙瘩汤里的汤可以是清水或排骨汤、鱼汤、骨头汤等。从饮食健康的角度而言，疙瘩汤更适合晚餐食用，因为面食类容易消化。
+    - name: 牛排
+      file_name: 20211112_191404.jpg
+    - name: xxx
+    - name: yyy
+    - name: zzz
+- name: Gallary A
+  description: this gallary A
+  folder_name: A
+  publish_date: 2021-11-13
+  images:
+    - name: A1
+    - name: A2
+    - name: A3
+    - name: A4

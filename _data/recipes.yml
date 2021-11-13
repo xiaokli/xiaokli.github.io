@@ -1,0 +1,10 @@
+- name: 中餐
+  images:
+    - name: 疙瘩汤
+      file_name: 20211112_191952.jpg
+      star: 4
+- name: 西餐
+  images:
+    - name: 牛排
+      file_name: 20211112_191404.jpg
+      star: 3

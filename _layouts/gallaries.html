@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.data.recipes.size > 0 -%}
+    <ul class="gallary-list">
+      {%- for gallery in site.data.recipes -%}
+      <li class="gallary">
+        <h2> {{ gallery.name }} </h2>
+          <ul class="item-list">
+          {%- for photo in gallery.images -%}
+            <li class="item" style="background-image: url('/assets/gallaries/food/{{ photo.file_name}}')">
+              <div class="name"> 
+                  <span> {{ photo.name }} </span>
+              </div>
+              <div class="content">
+              <span class="star-name"> 容易指数：</span>
+              <span class='stars'>
+              {%- for i in (1..5) -%}
+                {%- if i <= photo.star -%}
+                 ★
+                {%- else -%}
+                 ☆
+                {%- endif -%}
+              
+              {%- endfor -%}
+              </span>
+              </div>
+            </li>
+          {%- endfor -%}
+          </ul>
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+</div>
