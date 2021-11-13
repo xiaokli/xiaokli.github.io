@@ -3,6 +3,9 @@
     - name: 疙瘩汤
       file_name: 20211112_191952.jpg
       star: 4
+    - name: 四喜丸子
+      star: 5
+      file_name: 20211113_203024.jpg
 - name: 西餐
   images:
     - name: 牛排

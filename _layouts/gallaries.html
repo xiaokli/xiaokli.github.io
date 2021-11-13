@@ -16,7 +16,7 @@ layout: default
         <h2> {{ gallery.name }} </h2>
           <ul class="item-list">
           {%- for photo in gallery.images -%}
-            <li class="item" style="background-image: url('/assets/gallaries/food/{{ photo.file_name}}')">
+            <li class="item" style="background-image: url('/assets/gallaries/food/{{ photo.file_name}}.thumb.jpg')">
               <div class="name"> 
                   <span> {{ photo.name }} </span>
               </div>
