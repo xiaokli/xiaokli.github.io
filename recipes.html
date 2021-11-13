@@ -1,14 +1,12 @@
 ---
 layout: default
+title: 私厨
+permalink: /recipes/
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
+  <h1 class="page-heading">我的私厨</h1>
+  
   {%- if site.data.recipes.size > 0 -%}
     <ul class="gallary-list">
       {%- for gallery in site.data.recipes -%}
@@ -21,17 +19,16 @@ layout: default
                   <span> {{ photo.name }} </span>
               </div>
               <div class="content">
-              <span class="star-name"> 推荐指数：</span>
-              <span class='stars'>
-              {%- for i in (1..5) -%}
-                {%- if i <= photo.star -%}
-                 ★
-                {%- else -%}
-                 ☆
-                {%- endif -%}
-              
-              {%- endfor -%}
-              </span>
+              	<span class="star-name"> 推荐指数：</span>
+                <span class='stars'>
+                  {%- for i in (1..5) -%}
+                  	{%- if i <= photo.star -%}
+                      ★
+                    {%- else -%}
+                      ☆
+                    {%- endif -%}
+                  {%- endfor -%}
+                </span>
               </div>
             </li>
           {%- endfor -%}

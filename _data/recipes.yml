@@ -1,13 +1,18 @@
 - name: 中餐
   images:
     - name: 疙瘩汤
+      publish_date: 2021-11-12
       file_name: 20211112_191952.jpg
       star: 4
     - name: 四喜丸子
       star: 5
       file_name: 20211113_203024.jpg
+      publish_date: 2021-11-13
+
 - name: 西餐
   images:
     - name: 牛排
       file_name: 20211112_191404.jpg
       star: 3
+      publish_date: 2021-11-12
+
