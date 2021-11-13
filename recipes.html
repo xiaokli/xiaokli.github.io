@@ -1,25 +1,24 @@
 ---
 layout: default
-title: 私厨
+title: Kitchen
 permalink: /recipes/
 ---
 
 <div class="home">
-  <h1 class="page-heading">我的私厨</h1>
+  <h1 class="page-heading">Welcome To My Kitchen</h1>
   
   {%- if site.data.recipes.size > 0 -%}
-    <ul class="gallary-list">
-      {%- for gallery in site.data.recipes -%}
-      <li class="gallary">
-        <h2> {{ gallery.name }} </h2>
-          <ul class="item-list">
-          {%- for photo in gallery.images -%}
-            <li class="item" style="background-image: url('/assets/gallaries/food/{{ photo.file_name}}.thumb.jpg')">
+    <ul class="recipe-cat-list">
+      {%- for recipe in site.data.recipes -%}
+      <li class="recipe-cat">
+        <h2> {{ recipe.name }} </h2>
+          <ul class="recipe-list">
+          {%- for photo in recipe.images -%}
+            <li class="recipe" style="background-image: url('/assets/gallaries/food/{{ photo.file_name}}.thumb.jpg')">
               <div class="name"> 
                   <span> {{ photo.name }} </span>
               </div>
               <div class="content">
-              	<span class="star-name"> 推荐指数：</span>
                 <span class='stars'>
                   {%- for i in (1..5) -%}
                   	{%- if i <= photo.star -%}
