@@ -6,7 +6,6 @@ description: >-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.xiaokli.top"
 github_username:  xiaokli
-linkedin_username: xiaokang-li
 facebook_username: xiaokangli616
 twitter_username: xiaokangli616
 # Build settings
