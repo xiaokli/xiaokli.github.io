@@ -12,7 +12,7 @@ twitter_username: xiaokangli616
 plugins:
   - jekyll-feed
 # ga
-google_analytics: G-51LZE9Z6N2
+# google_analytics: G-51LZE9Z6N2
 
 # Exclude from processing.
 # The following items will not be processed, by default.
