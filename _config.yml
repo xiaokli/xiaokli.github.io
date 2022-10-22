@@ -11,6 +11,12 @@ twitter_username: xiaokangli616
 # Build settings
 plugins:
   - jekyll-feed
+
+collections_dir: collects
+
+collections:
+  recipes:
+    output: true
 # ga
 # google_analytics: G-51LZE9Z6N2
 

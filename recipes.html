@@ -6,35 +6,29 @@ permalink: /recipes/
 
 <div class="home">
   <h1 class="page-heading">Welcome To My Kitchen</h1>
-  
-  {%- if site.data.recipes.size > 0 -%}
-    <ul class="recipe-cat-list">
-      {%- for recipe in site.data.recipes -%}
-      <li class="recipe-cat">
-        <h2> {{ recipe.name }} </h2>
-          <ul class="recipe-list">
-          {%- for photo in recipe.images -%}
-            <li class="recipe" style="background-image: url('/assets/gallaries/food/{{ photo.file_name}}.thumb.jpg')">
-              <div class="name"> 
-                  <span> {{ photo.name }} </span>
-              </div>
-              <div class="content">
-                <span class='stars'>
-                  {%- for i in (1..5) -%}
-                  	{%- if i <= photo.star -%}
-                      ★
-                    {%- else -%}
-                      ☆
-                    {%- endif -%}
-                  {%- endfor -%}
-                </span>
-              </div>
-            </li>
-          {%- endfor -%}
-          </ul>
-      </li>
+  {%- if site.recipes.size > 0 -%}
+      <ul class="recipe-list">
+      {%- for recipe in site.recipes -%}
+        <a href="{{ recipe.url | relative_url }}">
+          <li class="recipe" style="background-image: url('/assets/gallaries/food/{{ recipe.cover}}.thumb.jpg')">
+            <div class="name">
+                <span> {{ recipe.title }} </span>
+            </div>
+            <div class="content">
+              <span class='stars'>
+                {%- for i in (1..5) -%}
+                	{%- if i <= recipe.star -%}
+                    ★
+                  {%- else -%}
+                    ☆
+                  {%- endif -%}
+                {%- endfor -%}
+              </span>
+            </div>
+          </li>
+        </a>
       {%- endfor -%}
-    </ul>
+      </ul>
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
