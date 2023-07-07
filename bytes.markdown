@@ -1,5 +1,5 @@
 ---
 layout: posts
-title: 📒 Bytes
+title: 💻 Bytes
 permalink: /bytes/
 ---
