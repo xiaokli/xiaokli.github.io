@@ -7,10 +7,7 @@ categories: java linux
 
 > Just want to share how to setup the Java development environment with Linux.
 
-You can choose any release version of Linux for development, but you would better choose one with active community and popular among Linux users in case you can get supports when you met any issue.
-
-Recently I initiated a side project and I have decided to build the project with Java stack, .
-The Linux version provided by the Chrome OS is Linux with kernal 5.4 it's not important since the software/application installations are similar for Linux release versions. 
+You can choose any release version of Linux as your development operating system, but I would suggest to use one with active community and popular among Linux users in case you can get supports when you met any issue.
 
 If you are a Java developer you may already have known that we what we need to have in our OS, everyone has his/her own habits to manage the required dependencies, I would like to share my practice since it makes me focusing on coding or environment maintaining.
 
