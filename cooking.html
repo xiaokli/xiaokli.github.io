@@ -1,16 +1,15 @@
 ---
 layout: default
-title: 🍽️ Bits
-permalink: /bits/
+title: 🍽️ 学做饭
+permalink: /cooking/
 ---
 
 <div class="home">
-  <h1 class="page-heading">Welcome To My Kitchen</h1>
   {%- if site.recipes.size > 0 -%}
       <ul class="recipe-list">
       {%- for recipe in site.recipes -%}
         <a href="{{ recipe.url | relative_url }}">
-          <li class="recipe" style="background-image: url('/assets/gallaries/food/{{ recipe.cover}}.thumb.jpg')">
+          <li class="recipe" style="background-image: url('/assets/gallaries/food/{{ recipe.cove }}.thumb.jpg')">
             <div class="name">
                 <span> {{ recipe.title }} </span>
             </div>
