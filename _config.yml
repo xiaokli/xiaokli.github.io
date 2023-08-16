@@ -17,6 +17,13 @@ collections_dir: collects
 collections:
   recipes:
     output: true
+  tricks:
+    output: true
+  grumblings:
+    output: true
+  codings:
+    output: true
+  
 # ga
 # google_analytics: G-51LZE9Z6N2
 
