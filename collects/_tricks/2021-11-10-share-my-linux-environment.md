@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Share My Linux Setup For Java Development" 
+title: "Linux Setup For Java Development" 
 date:   2021-05-08 13:18:21 +0800
 categories: java linux 
 ---
 
-Just want to share the setup of my Linux desktop I used for development( mainly focusing on Java based, including scala for API&spark, kotlin for android).
+> Just want to share how to setup the Java development environment with Linux.
 
 You can choose any release version of Linux for development, but you would better choose one with active community and popular among Linux users in case you can get supports when you met any issue.
 
-Now Let's get back to our topic, I am a software developer mainly working on Java tech stack based projects, recently I am trying to initiate some side project for myself, I installed a Chrome OS on my old MacBook Air 7,2 and enabled the Linux virtual machine in the Chrome OS for setting up my development workspace.
+Recently I initiated a side project and I have decided to build the project with Java stack, .
 The Linux version provided by the Chrome OS is Linux with kernal 5.4 it's not important since the software/application installations are similar for Linux release versions. 
 
 If you are a Java developer you may already have known that we what we need to have in our OS, everyone has his/her own habits to manage the required dependencies, I would like to share my practice since it makes me focusing on coding or environment maintaining.
