@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 🍽️ 学做饭
+title: 🍱学做饭
 permalink: /cooking/
 ---
 
@@ -9,7 +9,7 @@ permalink: /cooking/
       <ul class="recipe-list">
       {%- for recipe in site.recipes -%}
         <a href="{{ recipe.url | relative_url }}">
-          <li class="recipe" style="background-image: url('/assets/gallaries/food/{{ recipe.cove }}.thumb.jpg')">
+          <li class="recipe" style="background-image: url('/assets/gallaries/food/{{ recipe.cover }}.thumb.jpg')">
             <div class="name">
                 <span> {{ recipe.title }} </span>
             </div>

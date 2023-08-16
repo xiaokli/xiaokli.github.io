@@ -1,13 +1,13 @@
 author: Xiaokang Li
-title: Bytes and Bites
+title: 油条不紊
 email: xiaokangli616@gmail.com
-description: >
-  Bytes and Bites: Where Cooking and Programming Merge!
+description: 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.xiaokli.top"
 github_username:  xiaokli
 facebook_username: xiaokangli616
 twitter_username: xiaokangli616
+linkedin_username: xiaokang-li
 # Build settings
 plugins:
   - jekyll-feed
