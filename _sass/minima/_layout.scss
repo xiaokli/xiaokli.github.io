@@ -121,6 +121,10 @@
   margin-left: 0;
 }
 
+ul.social-media-list {
+  display: flex;
+}
+
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
   color: $grey-color;
