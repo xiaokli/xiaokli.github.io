@@ -1,5 +1,5 @@
 ---
 layout: tricks
-title: 🗜️说经验
+title: 🗜️
 permalink: /trick/
 ---

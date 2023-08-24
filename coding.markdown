@@ -1,5 +1,5 @@
 ---
 layout: codings
-title: 💻写代码
+title: 💻
 permalink: /coding/
 ---

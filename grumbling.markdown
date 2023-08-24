@@ -1,5 +1,5 @@
 ---
 layout: posts
-title: 😠发牢骚
+title: 😠
 permalink: /grumbling/
 ---

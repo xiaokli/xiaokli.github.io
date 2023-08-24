@@ -111,16 +111,8 @@ a {
   }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
-  }
-
-  .social-media-list &:hover {
+    color: darken($brand-color, 15%);
     text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
   }
 }
 
@@ -219,7 +211,7 @@ pre {
 
 .social-media-list {
   li + li {
-    padding-left: 5px;
+    padding-left: 0px;
   }
 }
 
